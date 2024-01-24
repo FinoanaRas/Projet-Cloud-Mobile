@@ -13,6 +13,6 @@ const Annonce: React.FC = ({  }) => {
 				</div>
 			</IonCard>
     );
-  };
+};
   
-  export default Annonce;
+export default Annonce;

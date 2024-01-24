@@ -2,6 +2,7 @@ import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, Io
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
 import MenuSide from '../components/MenuSide';
+import AjoutAnnonce from '../components/AjoutAnnonce';
 
 const Tab2: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const Tab2: React.FC = () => {
               <IonTitle size="large">FiaraOccaz</IonTitle>
             </IonToolbar>
           </IonHeader>
+          <AjoutAnnonce/>
     
       </IonContent>
     </IonPage>
