@@ -6,7 +6,7 @@ import { pencil } from 'ionicons/icons';
 const Detail: React.FC = ({  }) => {
     return (
       <IonCard className="card card-box detail" routerLink='/details'>
-			<img className="card-img-top" src="./assets/vendors/images/img4.jpg"alt="Card image cap"/>
+			<img className="card-img-top" src="./assets/vendors/images/voiture.jpg"alt="Card image cap"/>
 			<div className="card-body">
             <h5 className="card-title weight-500">Card title</h5>
 			<p className="card-text">Some quick example text to build on the card title.</p>

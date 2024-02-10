@@ -1,10 +1,14 @@
-import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonGrid , IonRow, IonCol, IonCardTitle, IonButtons, IonMenuButton, IonCard, IonCardHeader, IonCardContent} from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
-import './Tab2.css';
+import '../assets/vendors/styles/icon-font.min.css';
+import '../assets/vendors/styles/style.css';
+import '../assets/vendors/styles/core.css';
+import '../assets/vendors/scripts/jquery.min.js';
+import '../assets/custom/script/mainScript.js';
 import MenuSide from '../components/MenuSide';
 import AjoutAnnonce from '../components/AjoutAnnonce';
 
-const Tab2: React.FC = () => {
+const AnnonceForm: React.FC = () => {
   return (
     <>
     <MenuSide></MenuSide>
@@ -24,12 +28,14 @@ const Tab2: React.FC = () => {
               <IonTitle size="large">FiaraOccaz</IonTitle>
             </IonToolbar>
           </IonHeader>
-          <AjoutAnnonce/>
-    
+            <AjoutAnnonce/>
+        
       </IonContent>
     </IonPage>
     </>
   );
 };
 
-export default Tab2;
+
+
+export default AnnonceForm;

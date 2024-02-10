@@ -1,0 +1,12 @@
+.detail{
+    width: fit-content;
+    margin: auto;
+}
+
+.form-group{
+    margin: 10px;
+}
+
+h5, h2{
+    text-indent: 10px;
+}
